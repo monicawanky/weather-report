@@ -21,13 +21,9 @@ Normally, you don't need to do any configuration. You can config the following i
 ## Getting Started
 The application built using Maven. You can build a jar file and run it from the command line
 
->./mvnw package
+>mvn clean package
 >
 >java -jar target/*.jar
-
-Or run the application directly
-
->./mvnw spring-boot:run
 
 After starting the application, visiting 
 [http://localhost:8080/v1/weather?city=melboune](http://localhost:8080/v1/weather?city=melboune) in your browser will output the following JSON payload
